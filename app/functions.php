@@ -4,7 +4,7 @@ function header_nav() {
 
     global $li_header;
 
-    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages`");
+    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages` WHERE `priority` = 'main'");
     
     foreach ($query as $nav) {
         $li_header .= '<li><a href="'. $nav['path'] .'">'. $nav['title'] .'</a></li>';
@@ -18,7 +18,7 @@ function footer_nav() {
 
     global $li_footer;
 
-    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages`");
+    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages` WHERE `priority` = 'main'");
     
     foreach ($query as $nav) {
         $li_footer .= '<li><a href="'. $nav['path'] .'">'. $nav['title'] .'</a></li>';

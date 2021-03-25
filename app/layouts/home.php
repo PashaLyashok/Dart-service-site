@@ -4,13 +4,13 @@
             <div class="banner_content">
                 <h1>LOREM IPSUM<br/> DOLOR SIT AMET</h1>
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sunt eveniet fuga, velit dicta assumenda ut cum animi minima doloribus possimus dolores veritatis officia totam quisquam, quae asperiores non quia?</P>
-                <button class="buy_now"><a class="a_now" href="#">buy now</a></button>
-                <button class="try"><a class="a_try" href="#">try for free</a></button>
+                <button class="buy_now"><a class="a_now" href="pricing">buy now</a></button>
+                <button class="try"><a class="a_try" href="pricing">try for free</a></button>
             </div>
             <div class="banner_video">
                 <div class="bg_video">
                     <div class="video">
-                        <button class="btn_video"><a class="a_video" href="#"><img src="/image/play_arrow.png"></a></button>
+                        <button class="btn_video"><a class="a_video" href="/"><img src="/image/play_arrow.png"></a></button>
                         <span>watch the video</span>
                     </div>
                 </div>   
@@ -39,7 +39,7 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi alias voluptatibus quasi saepe officia. Eveniet voluptatem sequi beatae incidunt impedit.</p>
                 </div>
             </div>
-            <button class="get_started"><a class="a_started" href="#">get started</a></button>
+            <button class="get_started"><a class="a_started" href="services">get started</a></button>
         </div>
     </section>
     <section class="items">
@@ -114,7 +114,7 @@
             <div class="feed_left">
                 <h2>What our customers have to say about us.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita temporibus laudantium magni praesentium velit? Perferendis reiciendis delectus voluptate explicabo!</p>
-                <button class="get_starter"><a class="a_starter" href="#">get started</a></button>
+                <button class="get_starter"><a class="a_starter" href="extension">get started</a></button>
             </div>
             <div class="feed_right">
                 <div class="feed_item">
