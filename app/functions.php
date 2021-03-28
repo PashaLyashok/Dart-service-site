@@ -4,7 +4,7 @@ function header_nav() {
 
     global $li_header;
 
-    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages` WHERE `priority` = 'main'");
+    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `pages` WHERE `priority` = 'main'");
     
     foreach ($query as $nav) {
         $li_header .= '<li><a href="'. $nav['path'] .'">'. $nav['title'] .'</a></li>';
@@ -18,7 +18,7 @@ function footer_nav() {
 
     global $li_footer;
 
-    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `main_pages` WHERE `priority` = 'main'");
+    $query = APP\DB::$db->query("SELECT `path`,`title` FROM `pages` WHERE `priority` = 'main'");
     
     foreach ($query as $nav) {
         $li_footer .= '<li><a href="'. $nav['path'] .'">'. $nav['title'] .'</a></li>';
@@ -31,7 +31,7 @@ function check_path($path) {
 
     $array_path = [];
 
-    $query = APP\DB::$db->query("SELECT `path` FROM `main_pages`");
+    $query = APP\DB::$db->query("SELECT `path` FROM `pages`");
     
     foreach($query as $value) {
         array_push($array_path, $value[0]);
@@ -49,7 +49,7 @@ function get_reg() {
         return '<div class="admin"><a href="sign-up">sign up</a></div>';
     } else {
         return '<div class="sign_out">
-                    <p>Hello '. $_COOKIE['login'] . '!</p>
+                    <p>Hello '. $_COOKIE['firstname'] . '!</p>
                     <form method="POST"><button name="sign-out">Sign-out</button></form>
                 </div>' ;
     }

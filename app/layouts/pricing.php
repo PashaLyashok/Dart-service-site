@@ -48,7 +48,7 @@
                     </div>
                     <div class="tab">
                         <h3 class="tab_st"><span class="price">$</span>15<br/><span class="price">per month</span></h3>
-                        <span class="but_st">Style package</span>
+                        <span class="but_st">standart css</span>
                         <p class="tab_p">2 style package<br/>20 files<br/>10 images<br/>2 JS scripts<br/></p>
                         <form action="order" method="POST">
                             <button class="btn_st" name="btn">By now</button>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="tab">
                         <h3 class="tab_st"><span class="price">$</span>25<br/><span class="price">per month</span></h3>
-                        <span class="but_st">Style package</span>
+                        <span class="but_st">Business css</span>
                         <p class="tab_p">3 style package<br/>30 files<br/>10 images<br/>4 JS scripts<br/></p>
                         <form action="order" method="POST">
                             <button class="btn_st" name="btn">By now</button>
@@ -64,7 +64,7 @@
                     </div>
                     <div class="tab">
                         <h3 class="tab_st"><span class="price">$</span>35<br/><span class="price">per month</span></h3>
-                        <span class="but_st">Style package</span>
+                        <span class="but_st">Premium css</span>
                         <p class="tab_p">4 style package<br/>40 files<br/>40 images<br/>6 JS scripts<br/></p>
                         <form action="order" method="POST">
                             <button class="btn_st" name="btn">By now</button>

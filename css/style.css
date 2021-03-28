@@ -688,8 +688,37 @@ Sign-up page -----------------------------------------
     text-align: center;
 }
 
+.form-sign input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px 10px;
+    font-size: 15px; 
+}
+
+.form-sign p {
+    margin-top: 5px;
+}
+
+.btn_sign {
+    margin-top: 35px;
+    background-color: #18ffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.btn_sign:hover {
+    color: #000;
+}
 /*
-Sign-out -------------------------------------------
+Sign-out page-------------------------------------------
 */ 
 
 .sign_out {
@@ -1038,7 +1067,7 @@ Index page -------------------------------------------------
 
 .index p {
     width: 70%;
-    margin-top: 40px;
+    
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -1075,10 +1104,111 @@ Index page -------------------------------------------------
 
 .a_serv:hover {
     text-decoration: none;
-    color: #000;
-    
+    color: #000;   
 }
 
+/*
+Order page ------------------------------------
+*/
+
+.container_form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.form h2 {
+    font-weight: bold;
+}
+
+.form hr {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #18ffff;
+    height: 1px;
+}
+
+.index p {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_order {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_order .main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px 10px;
+    font-size: 15px; 
+}
+
+.form_order p {
+    padding-top: 8px;
+}
+
+.product_packs {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 40px;
+}
+
+.product_packs p {
+    font-weight: bold;
+}
+
+.product_packs input {
+    margin-right: 5px;
+}
+
+.product_pack1 {
+    text-align: left;
+}
+
+.product_pack2 {
+    text-align: left;
+}
+
+.order_btn {
+    margin-top: 35px;
+    background-color: #18ffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.order_btn:hover {
+    color: #000;
+}
+
+/*
+feed_back, reg, thanks pages ------------------------------
+*/
+
+.feedback,
+.suc_reg,
+.thanks {
+    min-height: 69vh;
+}
 
 
 
